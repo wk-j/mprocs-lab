@@ -1,0 +1,3 @@
+Tools: sys.read, sys.write
+
+Generate `docker-compmose.yaml` for `docker/Dockerfile`

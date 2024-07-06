@@ -1,6 +1,14 @@
 procs:
   build:
     shell: "dotnet build src/MyApp"
+    autostart: false
 
   run:
     shell: "dotnet run --project src/MyApp"
+    autostart: false
+
+  start-docker:
+    shell: "docker-compose -f docker-compose.yaml up --build"
+    autostart: false
+    stop:
+      send-keys: ["<C-c>"]

@@ -1,0 +1,7 @@
+Tools: sys.read, sys.write
+
+Create a Dockerfile for a .NET 8 project
+
+- `docker/Dockerfile` for `src/MyApp`
+
+* Use 8080 as default port
