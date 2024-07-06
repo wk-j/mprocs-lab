@@ -1,0 +1,6 @@
+procs:
+  build:
+    shell: "dotnet build src/MyApp"
+
+  run:
+    shell: "dotnet run --project src/MyApp"
